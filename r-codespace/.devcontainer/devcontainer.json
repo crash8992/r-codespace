@@ -1,0 +1,14 @@
+{
+  "name": "R Data Science",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-toolsai.jupyter",
+        "REditorSupport.r"
+      ]
+    }
+  }
+}
