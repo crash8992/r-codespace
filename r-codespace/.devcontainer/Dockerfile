@@ -1,7 +1,8 @@
-# Imagen base mínima
+# Imagen base mínima con Ubuntu
 FROM ubuntu:22.04
 
-# Instalar R y dependencias básicas
+# Instalar dependencias básicas y R
+USER root
 RUN apt-get update && apt-get install -y --no-install-recommends \
     r-base \
     r-base-dev \
